@@ -41,7 +41,7 @@ Node.js Cypress
 
 #### Clone repository
 ```bash
-  https://github.com/DominikCLK/ASTA_Project.git
+  https://github.com/DominikCLK/asta.git
 ```
 
 ## Running the test
