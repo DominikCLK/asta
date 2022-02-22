@@ -10,5 +10,29 @@ describe('ASTA_TASK_3001', () => {
   })
 })
 
+//ASTA_TASK_3002
+
+describe('ASTA_TASK_3002', () => {
+  it('Go to editing the form', () => {
+cy.get('.dropdown-toggle')
+ .trigger('mouseover')
+ .click()
+ cy.get('#menu1').should('be.visible')
 
 
+
+cy.get('#menu1 > :nth-child(1) > :nth-child(1)')
+//  .find('li a')
+//  .contains('Formularz')
+ .trigger('mouseover')
+
+
+
+
+// cy.get('.dropdown-menu sub-menu')
+//  .find('li a')
+//  .contains('Przejdź do trybu edycji')
+//  .trigger('mouseover')
+//  .click()
+  })
+})
