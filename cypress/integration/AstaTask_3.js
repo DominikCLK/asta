@@ -20,7 +20,6 @@ cy.get('.dropdown-toggle')
  cy.get('#menu1').should('be.visible')
 
 
-
 cy.get('#menu1 > :nth-child(1) > :nth-child(1)')
 //  .find('li a')
 //  .contains('Formularz')
