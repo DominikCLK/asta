@@ -3,5 +3,9 @@
   "surname": "TestSurname",
   "email": "hello@cypress.io",
   "phone": "600-100-200",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "validationName": "TestNameeTestNameeTestNameeTestNameeTestNamee",
+  "validationSurname": "TestSurnameeeTestSurnameeeTestSurnameeeTestSurnameeeTestSurnameee",
+  "validationEmail": "hello.cypress.io",
+  "validationPhone": "600100200"
 }
