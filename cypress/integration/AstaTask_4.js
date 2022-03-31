@@ -15,21 +15,31 @@ describe('ASTA_TASK_4001', () => {
 
 
 //ASTA_TASK_4002
+
 describe('ASTA_TASK_4002', function() {
-  before(function() {
+
+before(function() {
 cy.fixture('example').then(function(data) {
 this.data = data
  })
 })
 
-it.only('Open form and fill inputs', function() {
+//ASTA_TASK_4003
+
+it('Open form and fill correcrt credentials', function() {
 cy.visit('https://buggy-testingcup.pgs-soft.com/task_4_frame')
+
 cy.get(':nth-child(1) > .col-md-8 > #name').type(this.data.name)
 cy.get(':nth-child(2) > .col-md-8 > #name').type(this.data.surname)
 cy.get(':nth-child(3) > .col-md-8 > #name').type(this.data.phone)
 
 cy.get('#save-btn').click()
-cy.go('back', 'close')
+
+cy.get(':nth-child(1) > .col-md-8 > #name').type(this.data.validationName)
+cy.get(':nth-child(2) > .col-md-8 > #name').type(this.data.validationSurname)
+cy.get(':nth-child(3) > .col-md-8 > #name').type(this.data.validationPhone)
+
+cy.get('#save-btn').click()
 
   })
 })
