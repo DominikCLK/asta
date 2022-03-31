@@ -1,6 +1,5 @@
 /// <reference types="Cypress" />
-import AddAllProducts from '../../cypress/support/addAllProducts'
-import AddThreeProducts from '../../cypress/support/add_3_products'
+
 
 //ASTA_TASK_2001
 
